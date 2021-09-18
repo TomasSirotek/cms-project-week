@@ -137,22 +137,20 @@ h1 {
 }
 
 .basic-2 {
-  padding-top: 3rem;
   padding-bottom: 0.5rem;
   background-color:#204093 ;
 }
 
 .basic-2 h2 {
   margin-bottom: 1.5rem;
-  color:white;
+  color:#bcd97d;
 }
 
 .basic-2 p {
- 
+  font-size: 14px;
   color:white;
 }
 .basic-3 {
-  padding-top: 3rem;
   padding-bottom: 0.5rem;
   background-color:white ;
 }
@@ -181,6 +179,7 @@ h1 {
 .conta-1 .h2-heading {
   margin-bottom: 3rem;
   text-align: center;
+  font-weight: bold;
 }
 
 .main-text h1 {
@@ -255,19 +254,14 @@ h1 {
   top: 30%;
 }
 #goals .goals-item h4 {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   color: #151948;
   margin-bottom: 15px;
 }
-#goals .goals-item p {
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #5e629c;
-}
 
 .background-diff {
-  background:#204093;
+  background:#3cc0f0;
   color: white;
 }
 .background-diff p {
@@ -298,7 +292,7 @@ h1 {
   transition: all 0.8s ease;
 }
 #features .feature-item .feature-icon {
-  width: 100px;
+  width: 160px;
   height: 140px;
   margin: 0px auto;
   margin-top: 0px;
@@ -315,24 +309,22 @@ h1 {
   margin-top: 12px;
 }
 #features .feature-item .feature-icon i {
-  font-size: 40px;
-
   position: absolute;
   left: 0;
   right: 0;
   top: 32%;
 }
 #features .feature-item h4 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 #features .feature-item p {
-  font-size: 16px;
+  font-size: 0.875rem;
   display: block;
 }
 
-
+ /* Scroll Btn */
 #scroll_top_btn {
   display: none;
   position: fixed;
@@ -370,13 +362,6 @@ h1 {
  
 }
 
-/* .clouds{
-  position:absolute;
-  z-index: 5;
-  animation: anim_cloud 75s linear infinite ;
-} */
-
-
 /* Footer */
 .footer { 	
   background: white;
@@ -395,12 +380,27 @@ h1 {
   padding-left:50px; 
 }
 
-
-
-
-#clouds{
-	padding: 100px 0;
-	
+.earth-one-btn{
+  background-color:#3cc0f0;
+  border: none !important;
 }
+.earth-one-btn:hover{
+  color: black;
+  background: #85A77B;
+
+}
+
+.earth-two-btn{
+  background-color: #3cc0f0;
+  border: none !important;
+
+}
+.earth-two-btn:hover{
+  background: #414040;
+  color: white;
+
+}
+
+
 
 

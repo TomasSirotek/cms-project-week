@@ -74,7 +74,7 @@ get_header(); ?>
                     <div class="image-container">
 
 
-                        <img src="<?php the_field("91_graph") ?>" alt="..." width="200" height="200">
+                        <img src="<?php the_field("91_graph") ?>" alt="..." width="250" height="250">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
@@ -151,7 +151,7 @@ get_header(); ?>
                         <div class="features-text section-header text-center">
                             <div>
                                 <h2 class="section-title"><?php the_field("goals_title") ?></h2>
-                                <div class="desc-text">
+                                <div class="desc-text ">
                                     <p><?php the_field("goals_description") ?> </p>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@ get_header(); ?>
                         <!-- Start Fetatures -->
                         <div class="feature-item featured-border1 background-diff">
                             <div class="feature-icon float-left">
-                                <img class="img-fluid" src="<?php the_field("goal_one_bulb") ?>" alt="alternative" width="170">
+                                <img class="img-fluid" src="<?php the_field("goal_one_bulb") ?>" alt="alternative" width="100">
                             </div>
                             <div class="feature-info float-left">
                                 <h4><?php the_field("goal_one_title") ?></h4>
@@ -183,7 +183,7 @@ get_header(); ?>
                         <!-- Start Fetatures -->
                         <div class="feature-item featured-border2 ">
                             <div class="feature-icon float-left">
-                                <img class="img-fluid" src="<?php the_field("goal_two_acid") ?>" alt="alternative" width="200">
+                                <img class="img-fluid" src="<?php the_field("goal_two_acid") ?>" alt="alternative" width="130">
                             </div>
                             <div class="feature-info float-left">
                                 <h4><?php the_field("goal_two_title") ?></h4>
@@ -199,7 +199,7 @@ get_header(); ?>
                         <!-- Start Fetatures -->
                         <div class="feature-item featured-border1 ">
                             <div class="feature-icon float-left">
-                                <img class="img-fluid" src="<?php the_field("goal_three_sustain") ?>" alt="alternative" width="100" height="100">
+                                <img class="img-fluid" src="<?php the_field("goal_three_sustain") ?>" alt="alternative" width="160" >
                             </div>
                             <div class="feature-info float-left">
                                 <h4><?php the_field("goal_three_title") ?></h4>
@@ -215,7 +215,7 @@ get_header(); ?>
                         <!-- Start Fetatures -->
                         <div class="feature-item featured-border2 background-diff">
                             <div class="feature-icon float-left">
-                                <img class="img-fluid" src="<?php the_field("goal_four_wind") ?>" alt="alternative" width="200">
+                                <img class="img-fluid" src="<?php the_field("goal_four_wind") ?>" alt="alternative" width="100">
                             </div>
                             <div class="feature-info float-left">
                                 <h4><?php the_field("goal_four_title") ?></h4>
@@ -271,7 +271,7 @@ get_header(); ?>
                         <?php
                         $button3 = get_field('earth_btn');
                         ?>
-                        <a class="btn btn-primary different-btn-2 btn-lg" role='button' href="<?php echo $button3['url']; ?>" target="<?php echo $button3['target']; ?>"><?php echo $button3['title']; ?></a>
+                        <a class="btn btn-primary earth-one-btn btn-lg" role='button' href="<?php echo $button3['url']; ?>" target="<?php echo $button3['target']; ?>"><?php echo $button3['title']; ?></a>
                     </div> <!-- end of text-container -->
 
 
@@ -296,12 +296,12 @@ get_header(); ?>
                         <?php
                         $button4 = get_field('earth_btn_two');
                         ?>
-                        <a class="btn btn-primary different-btn-2 btn-lg" role='button' href="<?php echo $button4['url']; ?>" target="<?php echo $button4['target']; ?>"><?php echo $button4['title']; ?></a>
+                        <a class="btn btn-primary earth-two-btn btn-lg" role='button' href="<?php echo $button4['url']; ?>" target="<?php echo $button4['target']; ?>"><?php echo $button4['title']; ?></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 text-center ">
 
-                    <div class="image-container">
+                    <div class="image-container mt-4">
                         <img class="img-fluid" src="<?php the_field("sollution_earth_img_two") ?>" alt="alternative" width="130">
                     </div> <!-- end of image-container -->
 
