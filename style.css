@@ -401,6 +401,36 @@ h1 {
 
 }
 
+.cloud{
+  background:url(images/cloud-1.png) ;
+  height:30px;
+  position: absolute;
+  width:100%;
+  animation:cloudani 20s linear infinite;
+
+}
+.cloud2{
+  background:url(images/cloud-3.png);
+  height:30px;
+  margin-top: 50px;
+  position: absolute;
+  width:100%;
+  animation:cloudani2 20s linear infinite  ;
+
+
+}
 
 
 
+@keyframes cloudani{
+  0%{-webkit-transform:translateX(-50px);opacity:0;}
+  20%{opacity:.5;}
+  90%{opacity:.5;}
+  100%{-webkit-transform:translateX(-1080px);opacity:0;}
+}
+@keyframes cloudani2{
+  0%{-webkit-transform:translateX(-50px);opacity:0;}
+  20%{opacity:.5;}
+  60%{opacity:.5;}
+  100%{-webkit-transform:translateX(-1000px);opacity:0;}
+}
