@@ -4,21 +4,11 @@ get_header(); ?>
     <section class="main" style="background-image: url('<?php echo get_field('pollution_bg')['url']; ?>')">
         <div class="container">
             <div class="row">
-
-  
-
-            <div class="sky mt-3">
+    <div class="sky mt-3">
     <div class="cloud "></div>
     <div class="cloud2"></div>
      </div>
-
-
-
-
-
-  
-  
-                <div class="col-sm-12 col-md-6 text-center">
+       <div class="col-sm-12 col-md-6 text-center">
                     <h1 class='font'>
                         <?php the_title() ?>
                     </h1>

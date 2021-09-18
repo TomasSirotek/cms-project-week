@@ -14,6 +14,7 @@ This is project week combining WP CMS and Adobe Illustrations
   - [Advanced Custom Fields plugin](#advanced-custom-fields-plugin)
   - [Custom Wordpress Theme](#custom-wordpress-theme)
   - [Functions & Code splitting](#functions-&-code-splitting)
+  - [Bootstrap Nav Walker](#bootstrap-navwalker)
   - [Buttons get_field('');](#buttons-get_field('');)
   - [Problems I ran Into & Solutions](#problems-i-ran-into-&-solutions)
   - [Useful resources](#useful-resources)
@@ -22,12 +23,14 @@ This is project week combining WP CMS and Adobe Illustrations
 
 ## Overview
 
-### Tasks
+### Tasks CMS
 
+- Responsive PHP / HTML / CSS / JS one-page design implemented in WordPress
+- You are allowed to use front-end frameworks such as Bootstrap, Foundation, Material Design
+etc
+- You are not allowed to use page builder plugins (Elementor, Beaver Builder, SeedProd, etc.)
+for your theme. In other words, you must use your coding skills for this.
 
-
-- Setting up Wordpress on local MAMP enviroment
-- Implementing WP and PHP in basic HTML, CSS website
 
 ### Screenshot
 
@@ -36,7 +39,7 @@ This is project week combining WP CMS and Adobe Illustrations
 
 ### Links
 
-- Code URL: [GitHub](https://github.com/TomassSimko/WordPress-Site)
+- Code URL: [GitHub](https://github.com/TomassSimko/cms-project-week)
 
 ## My process
 
@@ -45,13 +48,16 @@ This is project week combining WP CMS and Adobe Illustrations
 - PHP
 - HTML
 - CSS
+- BOOTSTRAP
+- JS
 - Wordpress
+
 
 ### What I learned
 
 #### Advanced Custom Fields plugin
 
-I have learned how to install and implement ACF plugin within single page website.
+I have learned how to use and implement ACF plugin within single page website.
 
 #### Custom Wordpress Theme
 
@@ -61,9 +67,9 @@ I have learned how to create custom Wordpress Theme from scratch and how to cust
 
 Creating and linking stylesheets within project functions.php and splitting single page application into part in PHP
 
-#### Wordpress Loop
+#### Bootstrap NavWalker 
 
-PHP functions like get_post and looping through out the posts and replacing static content with PHP.
+To make the navigation bar component from bootstrap customizable we had to use php fule  from official GitHub repository and register navigation bar in functions.php 
 
 #### Buttons get_field('');
 
@@ -71,17 +77,15 @@ Creating simple button with PHP and WP(link) with opening site on the new page a
 
 #### Problems I ran Into & Solutions
 
-I was dealing with problem uploading SVG files into the site. 
-From the article provided from tutor and information given by WP site (Blocked due security reasons) I found out its not good to use SVG files because its taken as a document file and creates many vulnerabilities for attackers. (XSS attack)
-But for this learning process I just simply installed pluggin called "Safe SVG".
+On the site we have used many repetative card elements which in order to make it proper WordPress adjustible we would have to use featur called repeater.
 
 
 ### Useful resources
 
-- [SVG Article](https://www.bjornjohansen.com/svg-in-wordpress) - This article gave me more information about SVG files within WP.
+- [Bootstrap-NavWalker](https://github.com/wp-bootstrap/wp-bootstrap-navwalker) - This article gave me more information about SVG files within WP.
 
 ## Author
 
-- Website - [TomasSimko](https://github.com/TomassSimko/WordPress-Site)
+- Website - [TomasSimko](https://github.com/TomassSimko/cms-project-week)
 - Tutor - []()
 
