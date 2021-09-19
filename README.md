@@ -15,7 +15,6 @@ This is project week combining WP CMS and Adobe Illustrations
   - [Custom Wordpress Theme](#custom-wordpress-theme)
   - [Functions & Code splitting](#functions-&-code-splitting)
   - [Bootstrap Nav Walker](#bootstrap-navwalker)
-  - [Buttons get_field('');](#buttons-get_field('');)
   - [Problems I ran Into & Solutions](#problems-i-ran-into-&-solutions)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -35,6 +34,12 @@ for your theme. In other words, you must use your coding skills for this.
 ### Screenshot
 
 ![screenshot](https://user-images.githubusercontent.com/72190589/133891940-0e64bc04-d7ec-4b74-a979-d7653426a0c4.png)
+
+
+![screenshot](https://user-images.githubusercontent.com/72190589/133920759-36620dea-dcc2-4735-9f39-711314c89439.png)
+
+
+![screenshot](https://user-images.githubusercontent.com/72190589/133920762-e1319ebe-566e-484c-a12f-d73a8a7158a1.png)
 
 
 ### Links
@@ -71,13 +76,9 @@ Creating and linking stylesheets within project functions.php and splitting sing
 
 To make the navigation bar component from bootstrap customizable we had to use php fule  from official GitHub repository and register navigation bar in functions.php 
 
-#### Buttons get_field('');
-
-Creating simple button with PHP and WP(link) with opening site on the new page and assigning specific URL.
-
 #### Problems I ran Into & Solutions
 
-On the site we have used many repetative card elements which in order to make it proper WordPress adjustible we would have to use featur called repeater.
+On the site we have used many repetative card elements which in order to make it proper WordPress adjustible we would have to use featur called repeater. This feature is paid at the moment and was not available for us to use during this week.
 
 
 ### Useful resources
