@@ -39,9 +39,6 @@ for your theme. In other words, you must use your coding skills for this.
 ![screenshot](https://user-images.githubusercontent.com/72190589/133920759-36620dea-dcc2-4735-9f39-711314c89439.png)
 
 
-![screenshot](https://user-images.githubusercontent.com/72190589/133920762-e1319ebe-566e-484c-a12f-d73a8a7158a1.png)
-
-
 ### Links
 
 - Code URL: [GitHub](https://github.com/TomassSimko/cms-project-week)
