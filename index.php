@@ -4,24 +4,22 @@ get_header(); ?>
     <section class="main" style="background-image: url('<?php echo get_field('pollution_bg')['url']; ?>')">
         <div class="container">
             <div class="row">
-    <div class="sky mt-3">
-    <div class="cloud "></div>
-    <div class="cloud2"></div>
-     </div>
+                 <div class="sky mt-3">
+                 <div class="cloud "></div>
+                 <div class="cloud2"></div>
+        </div>
        <div class="col-sm-12 col-md-6 text-center">
                     <h1 class='font'>
                         <?php the_title() ?>
                     </h1>
                     <p><?php the_content() ?></p>
-
-                    <div class="buttonos">
+                     <div class="buttonos">
                         <?php
                         $button = get_field('problem_btn');
                         ?>
                         <?php
                         $button2 = get_field('solution_btn');
                         ?>
-
                         <a class="btn btn-primary different-btn btn-lg" role='button' href="<?php echo $button['url']; ?>" target="<?php echo $button['target']; ?>"><?php echo $button['title']; ?></a>
                         <a class="btn btn-primary different-btn-2 btn-lg" role='button' href="<?php echo $button2['url']; ?>" target="<?php echo $button2['target']; ?>"><?php echo $button2['title']; ?></a>
                         <button onclick="topFunction()" id="scroll_top_btn" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
@@ -30,14 +28,11 @@ get_header(); ?>
             </div>
         </div>
     </section>
-
-
-    <!-- Add WP -->
+    <!-- Counter -->
     <div class="counter">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-
                     <!-- Counter -->
                     <div id="counter">
                         <div class="cell">
@@ -62,31 +57,24 @@ get_header(); ?>
                         </div>
                     </div>
                     <!-- end of counter -->
-
-                </div> <!-- end of col -->
+            </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of counter -->
-
-
+    
     <!-- Done WP what is carbon emission -->
-
     <div id="details" class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 text-center mb-5">
                     <div class="image-container">
-
-
-                        <img src="<?php the_field("91_graph") ?>" alt="..." width="250" height="250">
+                    <img src="<?php the_field("91_graph") ?>" alt="..." width="250" height="250">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
                     <div class="text-container">
                         <h2><?php the_field("carbon_title") ?></h2>
                         <p><?php the_field("carbon_description") ?></p>
-
-
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -94,27 +82,20 @@ get_header(); ?>
     </div> <!-- end of basic-2 -->
     <!-- end of details 1 -->
 
-
-
-    <!-- Do WP Problem-->
-
-
+   <!-- Problem Section -->
     <div class="container mb-5 mt-5" id="problem">
         <!-- Start Row -->
         <div class="row">
             <div class="col-lg-12">
                 <div class="features-text section-header text-center">
                     <div>
-
                         <h2 class="section-title"><?php the_field("problem_title") ?></h2>
                         <div class="desc-text">
                             <p><?php the_field("problem_description") ?></p>
-
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div id="details" class="basic-3">
@@ -125,18 +106,15 @@ get_header(); ?>
                             <div>
                                 <img class="img-fluid mb-4" src="<?php the_field("problem_graph") ?>" alt="alternative" width="250">
                             </div>
-
-                            <p><?php the_field("problem_graph_description") ?></p>
+                                <p><?php the_field("problem_graph_description") ?></p>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
                         <div class="text-container ">
                             <div>
-
                                 <img class="img-fluid mb-4" src="<?php the_field("problem_graph_2") ?>" alt="alternative" width="300">
                             </div>
-
-                            <p><?php the_field("problem_graph_2_description") ?></p>
+                                <p><?php the_field("problem_graph_2_description") ?></p>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -144,9 +122,7 @@ get_header(); ?>
         </div> <!-- end of basic-2 -->
         <!-- end of details 1 -->
 
-
-
-        <!-- Goals middle -->
+         <!-- Goals middle -->
         <section id="features" class="section">
             <div class="container mb-5 mt-5">
                 <!-- Start Row -->
@@ -161,8 +137,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-
-                </div>
+            </div>
                 <!-- End Row -->
                 <!-- Start Row  Goal 1 -->
                 <div class="row featured-bg">
@@ -235,8 +210,6 @@ get_header(); ?>
         </section>
         <!-- Goals Middle 2-->
 
-
-
         <section id="features" class="section">
             <div class="container mt-4">
                 <!-- Start Row -->
@@ -277,12 +250,7 @@ get_header(); ?>
                         ?>
                         <a class="btn btn-primary earth-one-btn btn-lg" role='button' href="<?php echo $button3['url']; ?>" target="<?php echo $button3['target']; ?>"><?php echo $button3['title']; ?></a>
                     </div> <!-- end of text-container -->
-
-
-
-
-
-                </div> <!-- end of col -->
+            </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of basic-2 -->
@@ -292,7 +260,6 @@ get_header(); ?>
     <div id="details" class="basic-3">
         <div class="container">
             <div class="row">
-
                 <div class="col-lg-6">
                     <div class="text-container text-start">
                         <h2><?php the_field("sollution_two_title") ?></h2>
@@ -304,19 +271,15 @@ get_header(); ?>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6 text-center ">
-
                     <div class="image-container mt-4">
                         <img class="img-fluid" src="<?php the_field("sollution_earth_img_two") ?>" alt="alternative" width="130">
                     </div> <!-- end of image-container -->
-
-
-
-                </div> <!-- end of col -->
+            </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of basic-2 -->
-    <!-- Solution 2 Erath End -->
 
+    <!-- Solution 2 Erath End -->
     <div class="conta-1 bg-gray mt-5">
         <div class="container">
             <div class="row">
@@ -326,11 +289,9 @@ get_header(); ?>
             </div> <!-- end of row -->
         </div>
 
-
-        <!-- Goals Section Start -->
+     <!-- Goals Section Start -->
         <section id="goals" class="section">
             <div class="container">
-
                 <div class="row">
                     <!-- Start Col -->
                     <div class="col-lg-4 col-md-6 col-xs-12">
@@ -339,7 +300,6 @@ get_header(); ?>
                                 <img src="<?php the_field("to_do_one") ?>" alt="..." width="80">
                             </div>
                             <h4><?php the_field("to_do_one_title") ?></h4>
-                           
                         </div>
                     </div>
                     <!-- End Col -->
@@ -350,7 +310,6 @@ get_header(); ?>
                                 <img src="<?php the_field("to_do_two") ?>" alt="..." width="80">
                             </div>
                             <h4><?php the_field("to_do_two_title") ?></h4>
-                       
                         </div>
                     </div>
                     <!-- End Col -->
@@ -361,7 +320,6 @@ get_header(); ?>
                                 <img src="<?php the_field("to_do_three") ?>" alt="..." width="80">
                             </div>
                             <h4><?php the_field("to_do_three_title") ?></h4>
-                      
                         </div>
                     </div>
                     <!-- End Col -->
@@ -373,8 +331,7 @@ get_header(); ?>
                                 <img src="<?php the_field("to_do_four") ?>" alt="..." width="80">
                             </div>
                             <h4><?php the_field("to_do_four_title") ?></h4>
-                   
-                        </div>
+                            </div>
                     </div>
                     <!-- End Col -->
                     <!-- Start Col -->
@@ -384,7 +341,6 @@ get_header(); ?>
                                 <img src="<?php the_field("to_do_five") ?>" alt="..." width="80">
                             </div>
                             <h4><?php the_field("to_do_five_title") ?></h4>
-                     
                         </div>
                     </div>
                     <!-- End Col -->
@@ -395,17 +351,15 @@ get_header(); ?>
                                 <img src="<?php the_field("to_do_six") ?>" alt="..." width="80">
                             </div>
                             <h4><?php the_field("to_do_six_title") ?></h4>
-                          
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
         <!-- Goals Section End -->
 
+        <!-- JS quick connect -->
          <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/my-js.js"></script> 
-
 
     <?php endwhile; ?>
     <?php get_footer(); ?>

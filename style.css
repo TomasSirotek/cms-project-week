@@ -1,9 +1,9 @@
 /*
-Theme Name: WP Uni-project
-Author: Our Team
-Description: Need Descript
+Theme Name: Project Week 
+Author: Simko & Hussein & Hudakova
+Description: Air Pollution informative website
 Version: 0.1
-Text Domain: Our Theme
+Text Domain: Our unique Theme about Air Pollution
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
@@ -37,6 +37,7 @@ h1 {
   font-weight: bold 700;
   color:#103B63;
 }
+
 /* Nav bar */
 .navbar {
   background: #3cc0f0 !important;
@@ -57,7 +58,7 @@ h1 {
   text-align: center !important;
 }
 
-/* Main Buttons style */
+/* Buttons */
 .different-btn {
   background: #bcd97d !important;
   border: none !important;
@@ -67,6 +68,45 @@ h1 {
   border: none !important;
 }
 
+#scroll_top_btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: #3cc0f0;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+#scroll_top_btn:hover {
+  background-color: #bcd97d;
+}
+.earth-one-btn{
+  background-color:#3cc0f0;
+  border: none !important;
+}
+.earth-one-btn:hover{
+  color: black;
+  background: #85A77B;
+
+}
+
+.earth-two-btn{
+  background-color: #3cc0f0;
+  border: none !important;
+
+}
+.earth-two-btn:hover{
+  background: #414040;
+  color: white;
+
+}
 
 /* Landing page */
 .main {
@@ -324,28 +364,8 @@ h1 {
   display: block;
 }
 
- /* Scroll Btn */
-#scroll_top_btn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 20px;
-  border: none;
-  outline: none;
-  background-color: #3cc0f0;
-  color: white;
-  cursor: pointer;
-  padding: 20px;
-  border-radius: 25px;
-}
 
-#scroll_top_btn:hover {
-  background-color: #bcd97d;
-}
-
-/* Media Query */
+/* Media Query For Nav */
 
 @media (max-width: 575px) {
   .navbar {
@@ -380,26 +400,7 @@ h1 {
   padding-left:50px; 
 }
 
-.earth-one-btn{
-  background-color:#3cc0f0;
-  border: none !important;
-}
-.earth-one-btn:hover{
-  color: black;
-  background: #85A77B;
-
-}
-
-.earth-two-btn{
-  background-color: #3cc0f0;
-  border: none !important;
-
-}
-.earth-two-btn:hover{
-  background: #414040;
-  color: white;
-
-}
+/* Clouds for animation */
 
 .cloud{
   background:url(images/cloud-1.png) ;
@@ -419,8 +420,7 @@ h1 {
 
 
 }
-
-
+/* Animations */
 
 @keyframes cloudani{
   0%{-webkit-transform:translateX(-50px);opacity:0;}

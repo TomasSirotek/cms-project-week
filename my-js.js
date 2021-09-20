@@ -1,5 +1,4 @@
 
-
 //Get the button
 var mybutton = document.getElementById("scroll_top_btn");
 
