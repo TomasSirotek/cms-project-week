@@ -68,7 +68,7 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-7 text-center mb-5">
                     <div class="image-container">
-                    <img src="<?php the_field("91_graph") ?>" alt="..." width="250" height="250">
+                    <img src="<?php the_field("91_graph") ?>" alt="..." width="320" height="230">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
